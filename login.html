@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="css/login/General.css">
+		<link rel="stylesheet" href="css/login/login.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	</head>
+	<body>	
+		<div class="content-fluid">
+			<!--=====================================
+			Cabecera para nombre de la aplicación
+			======================================-->
+			<header>
+				<h1>HAP</h1>
+			</header>
+			
+			<!--=====================================
+			Caja dónde se almacenará el login
+			======================================-->
+			<div class="caja">
+				<p>LOGIN</p> <!-- Titulo caja -->
+				<div class="login"> <!-- div para crear la caja donde estará el fromulario -->
+					<p>Usuario:</p>
+					<input type="text" id="txtUsuario" placeholder="" />
+					<p>Contraseña:</p>
+					<input type="text" id="txtpassword" placeholder="" />
+					<input type="button" class="boton" id="btnEntrar" value="ENTRAR" onclick="Login.Acceder()" />
+				</div>
+			</div>
+		</div>
+		<script src="js/login.js"></script>
+		<script src="js/general.js"></script>
+	</body>
+</html>

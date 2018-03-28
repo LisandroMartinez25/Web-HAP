@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #b4bad2;
+	color: #fffce1;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Helvetica', sans-serif;
+}
+
+a {
+	color: #4e4a46;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+section {
+	padding: 1em;
+	text-align: center;
+
+}
+
+/* Cabezera */
+.codrops-header {
+	text-align: center; 
+    top: 0; 
+    width: 100%;
+    background: #951228;
+    position: fixed
+
+}
+
+ .codrops-header h1 {
+	color: #fff;
+	margin: 0px;
+	height: 90px;
+	font-weight: bold;
+	font-size: 3.75em;
+	text-align: center;
+}
+
+/* Menu del lado derecho*/
+.dropdown {
+    position: fixed;
+	top: 13px;
+    right: 30px;
+    background: #641119;
+    border-radius: 50px;
+}
+
+.dropdown img {
+	margin:0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #951228;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {background-color: #641119}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #641119;
+}
+
+/* Secccion */
+.related {
+	margin-top: 5.6em;
+	padding: 0 3em 7em;
+	background: #fff;
+	color: #641119;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+.related2 {
+	margin-top: 1px
+	padding: 0 3em 12em;
+	background: #fff;
+	color: #641119;
+	font-family: 'Helvetica', sans-serif;
+
+}
+
+
+@media screen and (max-width: 25em) {
+	body {
+		font-size: 80%;
+	}
+	.codrops-header h1 {
+		font-size: 2.5em;
+	}
+	.codrops-demos {
+		max-width: 900px;
+		padding: 2em 2em 0;
+	}
+	.related > a {
+		margin: 20px 0;
+	}
+}
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon {
+		font-size: 250%;
+	}
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}

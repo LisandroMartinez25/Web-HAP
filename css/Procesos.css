@@ -1,0 +1,242 @@
+body{
+	background: #FFF;
+	color: #000;
+}
+
+.Content{
+	width: 80%;
+	margin:  20px auto;
+	padding: 20px 0;
+	border-radius: 12px;
+}
+
+.Content-line{
+	width: 80%;
+	border: 2px solid #951228;
+	margin:  20px auto;
+	padding: 20px 0;
+	border-radius: 12px;
+}
+
+ul{
+	list-style: none;
+}
+
+.Title{
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.Flujo{
+	margin: 0 auto;
+	width: 90%;
+	height: 100px;
+	text-align: center;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.ItemFlujo{
+	width: 115px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.Conexion{
+	width: 80px;	
+	display: inline-block;
+	padding-bottom: 50px;
+}
+
+.Proceso{
+	border: 3px solid;
+	border-radius: 30%;
+	width: 75px;
+	padding: 20px 0;
+	font-size: 1.5rem;
+	margin: 0 auto;
+}
+
+.Actividad{
+	border: 3px solid;
+	border-radius: 100%;
+	width: 75px;
+	padding: 20px 0;
+	font-size: 1.5rem;
+	margin: 0 auto;
+}
+
+.Linea{
+	width: 100%;
+	border: 2px dotted;
+}
+
+/*========================
+CSS que se le aplicará al semáforo
+========================*/
+
+.Semaforo{
+	height: 150px;
+	width: 50px;
+	border-radius: 25px;
+	background: #CCC;
+	margin: 35px auto;
+	padding-top: 5px;
+}
+
+.Circulo{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin: 5px auto;
+}
+
+.Cuadrado{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin: 5px auto;
+}
+
+.Documento{
+	width: 40px;
+	height: 40px;
+	border-radius: 12px;
+	margin: 5px auto;
+}
+
+.Icono{
+	margin-top: -5px;
+	margin-right: -2px;
+	width: 30px;
+	height: 30px;
+}
+
+.Verde{
+	background: #1db28d;
+}
+
+.VerdeOpc{
+	background: rgba(29, 178, 141, .8);
+	/* border: 5px solid rgba(29, 178, 141, .8);
+	background: #1db28d;
+	 -webkit-background-clip: padding-box; /* for Safari 
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome  */
+} 
+.AmarilloOpc{
+	background: rgba(255, 255, 9, .5);
+}
+
+.Amarillo{
+	background: #fafa09;
+}
+
+.RojoOpc{
+	background: rgba(220, 48, 75, .5);
+}
+
+.Rojo{
+	background: #dc304b;
+}
+
+.Gris{
+	background: #CCC;
+}
+
+.Azul{
+	background: #4F80E1;
+}
+/*========================
+CSS que se le aplicará a las gráficas
+========================*/
+.Graficas{
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.Grafica{
+	display: inline-block;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.Grafica img{
+	width: 100% ;
+}
+
+/*========================
+CSS que se aplica a la seccion de los pendientes
+========================*/
+.Pendientes{
+	max-width: 90%;
+	overflow: auto;
+	white-space: nowrap;
+	background: #CCC;
+	padding: 15px 20px;
+	margin:  0px auto 0 auto;
+	text-align: center;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.Pendientes-Det{
+	max-width: 90%;
+	overflow: auto;
+	white-space: nowrap;
+	background: #CCC;
+	padding: 15px 20px;
+	margin:  20px auto 0 auto;
+	text-align: center;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.Caja{
+	display: inline-block;
+	background: #FFF;
+	border-radius: 25px;
+	width: 200px;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.Fecha{
+	display: inline-block;
+}
+
+.FechaIni{
+	background: #1db28d;
+	color: #FFF;
+	width: 85%;
+	margin: 2px auto;
+	border-radius: 4px;
+	padding: 2px 0;
+}
+
+.FechaFin{
+	background: #951228;
+	color: #FFF;
+	width: 85%;
+	margin: 0 auto;
+	border-radius: 4px;
+	padding: 2px 0;
+}
+
+.BordeVerde{
+	border-color: #1db28d;
+	color: #1db28d;
+}
+
+.BordeGris{
+	border-color: #CCC;
+	color: #CCC;
+}
+
+.BordeAzul{
+	border-color: #4F80E1;
+	color: #4F80E1;
+}

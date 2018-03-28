@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Procesos</title>
+		<link rel="stylesheet" type="text/css" href="css/procesos/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/procesos/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/usuario/menu_elastic.css" />
+		<link rel="stylesheet" href="css/Procesos.css">
+		<script src="js/snap.svg-min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!--==================
+			Menu del lado izquierdo
+			===================-->
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="proceso.html"><span class="seccion">Procesos</span></a>
+						         <ul>
+									<li>
+										<a href="detalle.html"><span>Detalles</span></a>
+									</li>
+								</ul>
+						<a href="indicadores.html"><span class="seccion">Indicadores</span></a>
+						<a href="#"><span class="seccion">Administrar</span></a>
+								<ul>
+									<li>
+										<a href="administracionusuario.html"><span>Agregar Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracioneditausuario.html"><span>Editar  Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracionproceso.html"><span>Agregar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarproceso.html"><span>Editar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracionrol.html"><span>Agregar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarol.html"><span>Editar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracionplantilla.html"><span>Agregar Plantilla</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarplantilla.html"><span>Editar Plantilla</span></a>
+									</li>
+								</ul>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button"></button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+					</svg>
+				</div>
+			</div>
+			<button class="menu-button" id="open-button"></button>
+			<!--==================
+			     Cabezera
+			===================-->
+			<div class="content-wrap">
+				<div class="content">
+					<header class="codrops-header" >
+						<h1>HAP</h1>
+						<!--==================
+			             Menu del lado derecho
+			             ===================-->
+				      <div class="dropdown">
+                        <img src="img/user3.png" width="55" height="55">
+                        <div class="dropdown-content">
+                        	 <a href="#">Lisandro M</a>
+                             <a href="#">Cuenta</a>
+                             <a href="#">Act/Proc</a>
+                             <a href="login.html">Salir</a>
+                        </div>
+                      </div>
+					</header>
+					<!--==================
+			                  Seccion 
+			             ===================-->
+					<section class="related">
+				<h2 class="Title">Herramienta de Administración de Procesos</h2><!-- Titulo -->
+				<div class="Content-line">
+				<!--==============================
+						Flujo del proceso
+				===============================-->
+				<div class="Flujo">
+					<ul>
+						<li class="ItemFlujo"><p class="Proceso BordeVerde">P1</p><label class="Pie">Proceso Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Actividad BordeVerde">A1</p><label class="Pie">Actividad Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeAzul">P3</p><label class="Pie">Proceso Tres</label></li>
+						<li class="Conexion"><div class="Linea BordeGris"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeGris">PF</p><label class="Pie">Proceso Final</label></li>
+					</ul>
+				</div>
+
+				<!--======================
+						Gráficas
+				=======================-->
+				<div class="Graficas">
+					<!--======================
+							Gráficas 1
+					=======================-->
+					<div class="Grafica">
+						<img src="img/Captura.PNG">
+						<p class="Pie">% Completado</p>
+					</div>
+					<!--==============================
+								Semaforor
+					===============================-->
+					<div class="Grafica">
+						<div class="Semaforo">
+							<div class="Circulo Verde"></div>
+							<div class="Circulo AmarilloOpc"></div>
+							<div class="Circulo RojoOpc"></div>
+						</div>
+					</div>
+					<!--======================
+							Gráfica 2
+					=======================-->
+					<div class="Grafica">
+						<img src="img/Captura.PNG">
+						<p class="Pie">% Desviacion</p>
+					</div>
+				</div>				
+				
+				<!--==============================
+						Procesos pendientes
+				===============================-->
+			<div class="Pendientes">
+					<div class="Caja">
+						<div class="Icono Circulo Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Rojo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+				</div>
+			</div>
+					</section>
+					<section class="related2">
+						<h2 class="Title">Pagina Reporting Navition</h2>
+				<div class="Content-line">
+				<!--==============================
+						Flujo del proceso
+				===============================-->
+				<div class="Flujo">
+					<ul>
+						<li class="ItemFlujo"><p class="Proceso BordeVerde">P1</p><label class="Pie">Proceso Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Actividad BordeVerde">A1</p><label class="Pie">Actividad Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeAzul">P3</p><label class="Pie">Proceso Tres</label></li>
+						<li class="Conexion"><div class="Linea BordeGris"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeGris">PF</p><label class="Pie">Proceso Final</label></li>
+					</ul>
+				</div>
+
+				<!--======================
+						Gráficas
+				=======================-->
+				<div class="Graficas">
+					<!--======================
+							Gráficas 1
+					=======================-->
+					<div class="Grafica">
+						<img src="img/Captura.PNG">
+						<p class="Pie">% Completado</p>
+					</div>
+					<!--==============================
+								Semaforor
+					===============================-->
+					<div class="Grafica">
+						<div class="Semaforo">
+							<div class="Circulo Verde"></div>
+							<div class="Circulo AmarilloOpc"></div>
+							<div class="Circulo RojoOpc"></div>
+						</div>
+					</div>
+					<!--======================
+							Gráfica 2
+					=======================-->
+					<div class="Grafica">
+						<img src="img/Captura.PNG">
+						<p class="Pie">% Desviacion</p>
+					</div>
+				</div>				
+				
+				<!--==============================
+						Procesos pendientes
+				===============================-->
+			<div class="Pendientes">
+					<div class="Caja">
+						<div class="Icono Circulo Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Rojo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+				</div>
+			</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/main3.js"></script>
+		<script src="js/general.js"></script>
+	</body>
+</html>

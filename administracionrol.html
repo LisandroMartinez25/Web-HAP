@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Procesos</title>
+		<link rel="stylesheet" type="text/css" href="css/rol/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/rol/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/usuario/menu_elastic.css" />
+		<script src="js/snap.svg-min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!--==================
+			Menu del lado izquierdo
+			===================-->
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="proceso.html"><span class="seccion">Procesos</span></a>
+						         <ul>
+									<li>
+										<a href="detalle.html"><span>Detalles</span></a>
+									</li>
+								</ul>
+						<a href="indicadores.html"><span class="seccion">Indicadores</span></a>
+						<a href="#"><span class="seccion">Administrar</span></a>
+								<ul>
+									<li>
+										<a href="administracionusuario.html"><span>Agregar Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracioneditausuario.html"><span>Editar  Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracionproceso.html"><span>Agregar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarproceso.html"><span>Editar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracionrol.html"><span>Agregar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarol.html"><span>Editar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracionplantilla.html"><span>Agregar Plantilla</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarplantilla.html"><span>Editar Plantilla</span></a>
+									</li>
+								</ul>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button"></button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+					</svg>
+				</div>
+			</div>
+			<button class="menu-button" id="open-button"></button>
+			<!--==================
+			     Cabezera
+			===================-->
+			<div class="content-wrap">
+				<div class="content">
+					<header class="codrops-header">
+						<h1>HAP</h1>
+						<!--==================
+			             Menu del lado derecho
+			             ===================-->
+						<div class="dropdown">
+                        <img src="img/user3.png" width="55" height="55">
+                        <div class="dropdown-content">
+                        	 <a href="#">Lisandro M</a>
+                             <a href="#">Cuenta</a>
+                             <a href="#">Act/Proc</a>
+                             <a href="login.html">Salir</a>
+                        </div>
+                        </div>
+					</header>
+					<!--==================
+			                  Seccion 
+			             ===================-->
+					<section class="related">
+						<h1>ADMINISTRACION</h1><!-- Titulo -->
+						<form>
+							<p>Nombre Rol:</p> <input type="text" name="nombre" placeholder="Rol" size="33" /><br>
+							<p>Plantilla:</p> <input type="text" name="nombre" placeholder="Plantilla" size="33" /><br>
+							<p>Permiso:</p> <input type="text" name="nombre" placeholder="Permiso" size="33" /><br>
+							<p>Proc/Act:</p> <input type="text" name="nombre" placeholder="Permiso" size="33" /><br>
+							<input type="submit" value="Agregar" />
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/main3.js"></script>
+	</body>
+</html>

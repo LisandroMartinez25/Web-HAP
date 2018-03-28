@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Procesos</title>
+		<link rel="stylesheet" type="text/css" href="css/detalle/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/detalle/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/usuario/menu_elastic.css" />
+		<link rel="stylesheet" href="css/Procesos.css">
+		<link rel="stylesheet" href="css/detalle/detalle.css">
+		<link rel="stylesheet" href="css/detalle/General.css">
+		<script src="js/snap.svg-min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!--==================
+			Menu del lado izquierdo
+			===================-->
+			<div class="menu-wrap">
+				<nav class="menu">
+					<div class="icon-list">
+						<a href="proceso.html"><span class="seccion">Procesos</span></a>
+						         <ul>
+									<li>
+										<a href="detalle.html"><span>Detalles</span></a>
+									</li>
+								</ul>
+						<a href="indicadores.html"><span class="seccion">Indicadores</span></a>
+						<a href="#"><span class="seccion">Administrar</span></a>
+								<ul>
+									<li>
+										<a href="administracionusuario.html"><span>Agregar Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracioneditausuario.html"><span>Editar  Usuario</span></a>
+									</li>
+									<li>
+										<a href="administracionproceso.html"><span>Agregar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarproceso.html"><span>Editar Proceso</span></a>
+									</li>
+									<li>
+										<a href="administracionrol.html"><span>Agregar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarol.html"><span>Editar Rol</span></a>
+									</li>
+									<li>
+										<a href="administracionplantilla.html"><span>Agregar Plantilla</span></a>
+									</li>
+									<li>
+										<a href="administracioneditarplantilla.html"><span>Editar Plantilla</span></a>
+									</li>
+								</ul>
+					</div>
+				</nav>
+				<button class="close-button" id="close-button"></button>
+				<div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+					<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+						<path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+					</svg>
+				</div>
+			</div>
+			<button class="menu-button" id="open-button"></button>
+			<!--==================
+			     Cabezera
+			===================-->
+			<div class="content-wrap">
+				<div class="content">
+					<header class="codrops-header" >
+						<h1>HAP</h1>
+						<!--==================
+			             Menu del lado derecho
+			             ===================-->
+				      <div class="dropdown">
+                        <img src="img/user3.png" width="55" height="55">
+                        <div class="dropdown-content">
+                        	 <a href="#">Lisandro M</a>
+                             <a href="#">Cuenta</a>
+                             <a href="#">Act/Proc</a>
+                             <a href="login.html">Salir</a>
+                        </div>
+                      </div>
+					</header>
+					<!--==================
+			                  Seccion 
+			             ===================-->
+					<section class="related">
+						<div class="Content">			
+				<h2 class="Title">Proceso Detalles</h2><!-- Titulo -->
+				
+				<!--==============================
+						Flujo del proceso
+				===============================-->
+				<div class="Flujo">
+					<ul>
+						<li class="ItemFlujo"><p class="Proceso BordeVerde">P1</p><label class="Pie">Proceso Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Actividad BordeVerde">A1</p><label class="Pie">Actividad Uno</label></li>
+						<li class="Conexion"><div class="Linea BordeVerde"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeAzul">P3</p><label class="Pie">Proceso Tres</label></li>
+						<li class="Conexion"><div class="Linea BordeGris"></div></li>
+						<li class="ItemFlujo"><p class="Proceso BordeGris">PF</p><label class="Pie">Proceso Final</label></li>
+					</ul>
+				</div>
+				
+				<!--==============================
+						Procesos pendientes
+				===============================-->
+				<div class="Pendientes-Det">
+					<div class="Caja">
+						<div class="Icono Circulo Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Rojo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Cuadrado Azul"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Amarillo"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Documento Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+					<div class="Caja">
+						<div class="Icono Circulo Gris"></div>
+						<div class="FechaIni">Inicio: <p class="Fecha">01/03/2018</p></div>
+						<div class="FechaFin">Final: <p class="Fecha">15/03/2018</p></div>
+						<p class="NombrePen">Actividad Dos</p>
+						<p class="Responsable">Lisandor M.</p>
+					</div>
+				</div>
+					
+				<!--========================================================================================
+				=            Tabla descriptiva del proceso o actividad que se esté vizualizando            =
+				=========================================================================================-->
+				
+				<div class="Tabla">
+					<ul class="Columnas Ins col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<li class="Rows Titulo">Insumos</li>
+						<li class="Rows">
+							<p>Insumo Uno</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<!-- <label class="switch">
+								<input type="checkbox" id="togBtn">
+								<div class="slider round">
+									<span class="on">Complet</span>
+									<span class="off">Complet</span>
+								</div>
+							</label> -->
+							<!-- Rounded switch -->
+							<div>
+								<p>Insumo Dos</p>
+								<label class="switch">
+									<input type="checkbox">
+									<span class="slider round"></span>
+								</label>
+							</div>
+						</li>
+						<li class="Rows">
+							<p>Insumo Tres</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Insumo Cuatro</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+					</ul>
+					<ul class="Columnas ActProc col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<li class="Rows Titulo">Actividades / Subprocesos</li>
+						<li class="Rows">
+							<p>Actividad 1</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Actividad 2</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Actividad 3</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Actividad 4</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Actividad 5</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<p>Actividad 6</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+					</ul>
+					<ul class="Columnas Entre col-lg-4 col-md-4 col-sm-4 col-xs-12">
+						<li class="Rows Titulo">Entregables</li>
+						<li class="Rows">
+							<img src="img/clip.png" alt="Adjuntar">
+							<p>Entregable 1</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<img src="img/clip.png" alt="Adjuntar">
+							<p>Entregable 2</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<img src="img/clip.png" alt="Adjuntar">
+							<p>Entregable 3</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+						<li class="Rows">
+							<img src="img/clip.png" alt="Adjuntar">
+							<p>Entregable 4</p>
+							<label class="switch">
+								<input type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script src="js/classie.js"></script>
+		<script src="js/main3.js"></script>
+		<script src="js/general.js"></script>
+	</body>
+</html>

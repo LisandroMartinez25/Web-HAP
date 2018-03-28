@@ -1,0 +1,8 @@
+.Chart{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.Chart img{
+	width: 100% ;
+}
